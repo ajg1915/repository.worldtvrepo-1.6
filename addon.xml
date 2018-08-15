@@ -1,0 +1,14 @@
+<?xml version="5.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.worldtvrepo-1.6" name="WorldTV" version="5.0" provider-name="AJGSportsTalks">
+	<extension point="xbmc.addon.repository" name="World TV Media">
+		<info compressed="false">http://worldtvpro.comlu.com/WORLDTVPRO/Repo/addons.xml</info>
+		<checksum>http://worldtvpro.comlu.com/WORLDTVPRO/Repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://worldtvpro.comlu.com/WORLDTVPRO/Zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Best Repo</summary>
+		<description>WORLD TV Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
