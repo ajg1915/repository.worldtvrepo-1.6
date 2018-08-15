@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.worldtvsportsmessage" version="1.7"
+<addon id="plugin.program.worldtvsportsmessage" version="1.6"
        name="WorldTV Sports Notifer" provider-name="AJGSportsNY.net">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
