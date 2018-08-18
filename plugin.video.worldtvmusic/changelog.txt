@@ -1,0 +1,5 @@
+[B]Version 1.0.0[/B]
+8 Occtober 2016 - This is the first versions of my music playlists addon
+
+[B]Version 1.1.0[/B]
+February 2016 - Meghan Trainor link fixed
