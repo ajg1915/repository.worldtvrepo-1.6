@@ -1,0 +1,14 @@
+<?xml version="1.6" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.worldtv" name="World TV" version="1.6" provider-name="AJGSportsNY">
+	<extension point="xbmc.addon.repository" name="World TV">
+		<info compressed="false">http://worldtvpro.comlu.com/WORLDTVPRO/Zips/addons.xml</info>
+		<checksum>http://worldtvpro.comlu.com/WORLDTVPRO/Zips/addons.xml.md5</checksum>
+		<datadir zip="true">http://worldtvpro.comlu.com/WORLDTVPRO/Zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Best Repo</summary>
+		<description>WORLD TV Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

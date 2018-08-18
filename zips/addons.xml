@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.worldtvsportsmessage" version="1.6"
+       name="WorldTV Sports Notifer" provider-name="AJGSportsNY.net">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>WorldTV Notifer</summary>
+  	<description>Receive Important News Updates With WorldTV Notifer. Unsubscribe within Add-on Settings.</description>
+  	<disclaimer>We take no responsibility for any problems this plugin might in any way, form, shape or size cause.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://www.ajgsportsny.net/worldtvmedia</forum>
+  	<website>http://www.ajgsportsny.net</website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
+
+<addon id="plugin.video.worldtvmusic"
+	name="WorldMusic"
+	version="1.1.0"
+	provider-name="World Tv Media Center">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.worldtvwizard-1.0.0" name="World TV Wizard" version="1.0.0" provider-name="AJGSportsTalk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">World Tv MediaWizard</summary>
+    <description lang="en">Best World TV Media Center</description>
+	<website>http://ajgsportstalk.com</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="program.worldtvclean"
+       name="[COLOR red]WORLD CLEANER[/COLOR]"
+       version="1.0.3"
+       provider-name="Rockcrusher">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary></summary>
+    <description>
+	Simple tool for cleaning Kodi and its file system.
+    </description>
+    <language></language>
+  </extension>
+</addon>
+
+<addon id="repository.worldtv" name="World TV" version="1.6" provider-name="AJGSportsNY">
+	<extension point="xbmc.addon.repository" name="World TV">
+		<info compressed="false">http://worldtvpro.comlu.com/WORLDTVPRO/Zips/addons.xml</info>
+		<checksum>http://worldtvpro.comlu.com/WORLDTVPRO/Zips/addons.xml.md5</checksum>
+		<datadir zip="true">http://worldtvpro.comlu.com/WORLDTVPRO/Zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Best Repo</summary>
+		<description>WORLD TV Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
